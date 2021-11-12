@@ -1437,13 +1437,13 @@ li, a {
   font-size: 1.125rem;
 }
 
-button, button:hover {
+/* button, button:hover {
   font-family: "Karla", sans-serif;
   border-radius: 3rem;
   padding: 1.6875rem 3rem;
   font-size: 3rem;
   font-weight: 700;
-}
+} */
 
 body {
   margin: 0;
