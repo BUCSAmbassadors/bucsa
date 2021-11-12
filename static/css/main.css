@@ -1470,18 +1470,15 @@ body {
   list-style: none;
 }
 
-.nav-links li {
+.nav-links a{
   display: inline-block;
   padding: 0px 2rem;
-}
-
-.nav-links li a {
   font-family: "Karla", sans-serif;
   color: #1A1A1A;
   transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover {
+.nav-links a:hover {
   color: #FF0400;
 }
 
