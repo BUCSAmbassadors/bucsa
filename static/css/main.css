@@ -1466,20 +1466,16 @@ body {
   width: 5rem;
 }
 
-.nav-links {
-  list-style: none;
-}
-
-.navbar a{
+.navbar-nav a{
   display: inline-block;
-  padding: 0px 2rem;
+  padding: 0px 1.5rem !important;  
   font-family: "Karla", sans-serif;
-  color: #1A1A1A;
+  color: #1A1A1A !important;
   transition: all 0.3s ease 0s;
 }
 
-.navbar a:hover {
-  color: #FF0400;
+.nav-style a:hover {
+  color: #FF0400 !important;
 }
 
 footer {
