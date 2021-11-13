@@ -1437,7 +1437,7 @@ li, a {
   font-size: 1.125rem;
 }
 
-button, button:hover {
+button {
   font-family: "Karla", sans-serif;
   border-radius: 3rem;
   padding: 1.6875rem 3rem;
