@@ -903,7 +903,7 @@ iframe {
     flex-direction: column;
   }
   .resources-landing .resources-landing-right {
-    display: none;
+    display: flex;
   }
 }
 
