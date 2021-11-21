@@ -1,0 +1,18 @@
+.resources-links-header {
+    padding: 5rem 5rem 2rem 5rem;
+}
+
+.resources-link-section {
+    padding: 2rem 5rem;
+    a {
+        color: $black;
+        transition: all ease 300ms;
+        .iconify {
+            color: $black;
+            padding-top: 8px;
+            display: inline;
+            font-size: $h4;
+            transition: all ease 300ms;
+        }
+    }
+}
