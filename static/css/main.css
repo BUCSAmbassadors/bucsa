@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: auto;
-  height: 100vh;
+  height: 86vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,7 @@
 
 .hero-title {
   margin-bottom: 0;
+  font-size: 12vmin;
 }
 
 .hero-title .red {
@@ -39,9 +40,11 @@
   margin-top: 1.25rem;
   margin-bottom: 0;
   padding: 0 10%;
+  font-size: 4vmin;
 }
 
 .cta-btn {
+  /* margin:60px 15px 0px 0px; */
   background-color: #FF0400;
   color: #FFF;
   border: none;
@@ -49,6 +52,8 @@
   box-shadow: 0 0.25rem 1rem rgba(255, 4, 0, 0.35);
   transition: all 0.3s ease 0s;
   cursor: pointer;
+  font-size: 4vmin; 
+  /* text-align: center; */
 }
 
 .cta-btn:hover {
@@ -215,6 +220,7 @@
 .testimonials-top {
   margin-top: 4rem;
   padding: 3%;
+  font-size: 10vmin;
 }
 
 .slides {
@@ -250,6 +256,7 @@
   background: linear-gradient(90deg, rgba(32, 32, 32, 0.75) 0%, rgba(30, 30, 30, 0.75) 100%);
   border-radius: 1rem;
   text-align: left;
+  font-size: 4vmin;
 }
 
 .slides-card .card-profile {
@@ -281,6 +288,10 @@
 
 .slides-card .card-profile .card-profile-info .name h4 {
   font-weight: 700;
+  font-size: 4vmin;
+}
+.slides-card .card-profile .card-profile-info .role h5 {
+  font-size: 3vmin;
 }
 
 @media (max-width: 1200px) {
@@ -298,13 +309,14 @@
   transition: all 0.3s ease 0s;
   cursor: pointer;
   margin-bottom: 8rem;
+  font-size: 4vmin; 
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .btn-whttogold {
     margin-top: 2rem;
   }
-}
+} */
 
 .btn-whttogold:hover {
   color: #FFC700;
@@ -1386,9 +1398,9 @@ ul.contact-socials .iconify {
   min-height: 0;
 }
 
-body {
+/* body {
   word-wrap: break-word;
-}
+} */
 
 h1 {
   font-family: "Rubik", sans-serif;
@@ -1480,15 +1492,16 @@ body {
 
 footer {
   width: auto;
+  height: fit-content;
   position: relative;
-  padding: 4.5rem 0;
+  padding: 2rem 0;
   background-color: #1A1A1A;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #FFF;
   flex-direction: column;
-  word-wrap: break-word;
+  word-wrap: word-break;
 }
 
 footer a {
@@ -1508,7 +1521,7 @@ footer a:hover, footer a:focus {
 }
 
 .footer-layer {
-  margin: 1.5rem 0;
+  margin: 1em 0;
 }
 
 .social-icons {
@@ -1519,20 +1532,21 @@ footer a:hover, footer a:focus {
 .social-icons .icon {
   background-color: #2F2F2F;
   border-radius: 100%;
-  width: 4rem;
-  height: 4rem;
+  height: 8vmin;
+  width: 8vmin;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .social-icons .icon .iconify {
-  font-size: 2.5rem;
+  font-size: 5vmin;
 }
 
 .footer-information {
   display: flex;
   gap: 3rem;
+  font-size: 4vmin;
 }
 
 .footer-links {
@@ -1541,7 +1555,7 @@ footer a:hover, footer a:focus {
 }
 
 .footer-links .footer-indiv-link {
-  margin: 0 3rem;
+  margin: 0 3em;
 }
 
 .footer-bu {
@@ -1549,18 +1563,19 @@ footer a:hover, footer a:focus {
 }
 
 .footer-bu img {
-  width: 8rem;
+  width: 20vmin;
 }
 
 @media (max-width: 900px) {
-  a, p {
-    font-size: 14px;
-  }
   .footer-links {
     flex-direction: column;
-  }
-  .footer-links .footer-indiv-link {
-    margin: 1rem 0;
-  }
+  } 
+  /* .footer-links .footer-indiv-link {
+    margin: 1em 0;
+  } */
+}
+
+a, p {
+  font-size: 2.25vmin;
 }
 /*# sourceMappingURL=main.css.map */
