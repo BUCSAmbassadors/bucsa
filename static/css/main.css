@@ -65,7 +65,7 @@
 .mission {
   position: relative;
   width: auto;
-  padding: 0 5rem;
+  padding: 0 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,9 +80,9 @@
 }
 
 .mission-left {
-  padding: 12.5625rem 0;
+  padding: 8rem 0;
   order: 1;
-  flex: 7;
+  flex: 8;
   box-sizing: border-box;
 }
 
@@ -90,7 +90,7 @@
   background-color: transparent;
   color: #1A1A1A;
   border: 2px solid #1A1A1A;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   box-shadow: 0 0.25rem 1rem rgba(26, 26, 26, 0.35);
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -110,8 +110,42 @@
 }
 
 @media (max-width: 750px) {
+  .mission {
+    position: relative;
+    width: auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .mission-title {
+    font-size: 7vw
+  }
+  .mission-statement {
+    font-size: 3vw
+  }
+  .btn-blktored {
+    margin-top: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(26, 26, 26, 0.35);
+    font-size: 5vw
+  }
+  .mission-left {
+    padding: 8rem 0;
+    order: 1;
+    flex: 2;
+    box-sizing: border-box;
+  }
   .mission-right img {
-    width: 200px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mission-left{
+    margin-top: 6rem;
+    padding: 1rem 0;
   }
 }
 
