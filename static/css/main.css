@@ -361,7 +361,7 @@
 .clubs {
   position: relative;
   width: auto;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -436,6 +436,17 @@
 @media (max-width: 1270px) {
   .clubs-right {
     display: none;
+  }
+}
+@media (max-width: 550px) {
+  .clubs {
+    height: 70vh
+  }
+  .club-title {
+    font-size: 8vw
+  }
+  .club-comment {
+    font-size: 5vw
   }
 }
 
