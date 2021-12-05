@@ -104,7 +104,7 @@
 
 .mission-right {
   order: 2;
-  flex: 6;
+  flex: 8;
   box-sizing: border-box;
   text-align: center;
 }
@@ -124,7 +124,7 @@
     font-size: 7vw
   }
   .mission-statement {
-    font-size: 3vw
+    font-size: 1.5vw
   }
   .btn-blktored {
     margin-top: 0.5rem;
