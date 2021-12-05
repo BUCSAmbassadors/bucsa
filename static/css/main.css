@@ -1468,7 +1468,7 @@ ul.contact-socials .iconify {
   padding: 1vmax;
   transition: all 0.3s ease;
   color: white;
-  font-size: calc(1.75vmax);
+  font-size: calc(1.5em);
 }
 
 .icon-bar a:hover {
